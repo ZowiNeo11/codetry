@@ -3,17 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stayling Table</title>
+  <title>Mergeing Table</title>
 </head>
 <body>
   <table border="1" cellspacing="0" cellpadding="10">
     <tr>
-      <td>Baris 1, kolom 1</td>
-      <td>Baris 1, kolom 2</td>
+      <td rowspan="3">Rowspan 3</td>
+      <td colspan="3">coslspan 2</td>
     </tr>
     <tr>
-      <td>Baris 2, kolom 1</td>
-      <td>Baris 2, kolom 2</td>
+      <td>2,1</td>
+      <td>2,2</td>
+      <td>2,3</td>
+    </tr>
+    <tr>
+      <td>3,1</td>
+      <td>3,2</td>
+      <td>3,3</td>
     </tr>
   </table>
 </body>
