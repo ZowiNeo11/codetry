@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Required, Autofocus, Autocomplete, Checkbox & Radio</title>
+</head>
+<body>
+  <h1>Contoh Input Attribute, checkkbox & radio</h1>
+
+  <form action="">
+    <label for="name">Nama :
+      <input type="text" name="name" id="name" placeholder="Masukan Nama" autocomplete="off" autofocus required>
+    </label>
+    <br>
+
+    <h3>Hobi : </h3>
+    <label for="hobby1">
+      <input type="checkbox" name="hobby" id="hobby1" value="Olahraga"> Olahraga
+    </label>
+    <br>
+    <label for="hobby2">
+      <input type="checkbox" name="hobby2" id="hobby2" value="Olahraga"> Membaca
+    </label>
+    <br>
+
+    <h3>Jenis Kelamin : </h3>
+    <label for="pria">
+      <input type="radio" name="jenis_kelamin" id="pria" value="Pria" checked> Pria
+    </label>
+    <br>
+    <label for="wanita">
+      <input type="radio" name="jenis_kelamin" id="wanita" value="Wanita"> Wanita
+    </label>
+    <br>
+
+    <br>
+    <button type="submit">Kirim</button>
+  </form>
+</body>
+</html>
