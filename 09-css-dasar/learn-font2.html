@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Font CSS 2</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Isometra&display=swap");
+
+      @font-face {
+        font-family: Saira;
+        src: url("fonts/Saira-Regular.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      h1 {
+        color: navy;
+        font-size: 60px;
+        text-align: center;
+        font-family: "Bitcount Ink", system-ui;
+        font-weight: 900;
+      }
+      P {
+        color: grey;
+        text-align: center;
+        font-size: 30px;
+        font-family: "Isometra", serif;
+      }
+
+      .font-saira {
+        font-family: Saira, Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello Dandi!</h1>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut beatae non
+      illum accusamus hic aspernatur dicta dignissimos quod magnam quo.
+    </p>
+    <p class="font-saira">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non ipsa,
+      tempora veniam excepturi quibusdam accusamus earum tenetur perferendis
+      eius sapiente, quis amet suscipit, ab atque vero commodi accusantium magni
+      exercitationem.
+    </p>
+  </body>
+</html>
